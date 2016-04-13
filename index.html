@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" name="author" content="Antoine 'nei' Bouquin"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Twitter PNG avatar uploader</title>
+		<link rel="stylesheet" href="css/style.css"/> 
+		<!--<script type="text/javascript"></script> UNCOMMENT IF JS NEEDED-->
+	</head>
+	<body>
+		<h1>Twitter PNG avatar uploader</h1>
+		<h2>By nei</h2>
+		<section>
+			<p>Welcome to the Twitter PNG avatar uploader! Follow the instructions and you'll have your Twitter avatar in PNG in no time!</p>
+			<p id="bold">Please make sure there is at least one transparent pixel on the image, otherwise it will be converted to JPG!</p>
+			<p>You can add transparency to your image with GIMP or Photoshop with the eraser.</p>
+			<article>
+				<form action="upload.php" method="post" enctype="multipart/form-data">
+					<p>First, select image to upload :</p>
+					<input type="file" name="fileToUpload" id="fileToUpload">
+					<input type="submit" value="Upload Image" name="submit">
+				</form>
+			</article>
+		</section>
+	</body>
+</html>
