@@ -17,6 +17,8 @@ Python script used to upload transparent PNG avatar if needed. Can also upload P
 
 If you don't get the message "Avatar changed!", then the upload hasn't been successful. It's either that the name you wrote is incorrect or that Twitter is having trouble.
 
-If your avatar changed but you still have a jpg, it might be because you haven't got any alpha canal on your image. With GIMP, you can correct this by doing Layer > Transparency > Add an alpha canal (might be differently named, if so let me know).
+If your avatar changed but you still have a jpg, it is because your image doesn't have transparency, so Twitter converts it automatically. You can edit it with GIMP/photoshop/ anything just to add 1 transparent pixel, it is enough.
+
+If when you try to erase, instead of transparency, you get white, it might be because you haven't got any alpha canal on your image. With GIMP, you can correct this by doing Layer > Transparency > Add an alpha canal (might be differently named, if so let me know).
 
 Have fun!
