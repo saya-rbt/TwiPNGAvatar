@@ -1,5 +1,5 @@
 # TwiPNGAvatar
-Python script used to upload transparent PNG avatar if needed. Can also upload PNG images without transparency for higher image quality.
+Python script used to upload transparent PNG avatar if needed. If you want a PNG avatar, just include a transparent pixel and use the script.
 
 ## How to use
 **IMPORTANT ! Requires [tweepy](https://github.com/tweepy/tweepy) !**
