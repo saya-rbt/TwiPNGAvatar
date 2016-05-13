@@ -21,4 +21,5 @@ api = tweepy.API(auth)
 # Gets the path of the image, uploads it, and prints a confirmation message.
 path=input("Name of the image: ")
 api.update_profile_image("./"+path)
-print("PP changed!")
+print("PP changed! Press Enter to leave.")
+input()
