@@ -1,6 +1,9 @@
 # TwiPNGAvatar
 Python script used to upload transparent PNG avatar if needed. If you want a PNG avatar, just include a transparent pixel and use the script.
 
+### This script is obsolete, hasn't been updated in years, and only here as archiving purposes.
+**Furthermore, someone (@buildknuckle on Twitter) seems to have found a way to upload a transparent avatar on Twitter: https://twitter.com/buildknuckle/status/1190669175594868740**, making this script not only obsolete but also useless.
+
 ## How to use
 **IMPORTANT ! Requires [tweepy](https://github.com/tweepy/tweepy) !**
 
@@ -17,8 +20,8 @@ Python script used to upload transparent PNG avatar if needed. If you want a PNG
 
 If you don't get the message "Avatar changed!", then the upload hasn't been successful. It's either that the name you wrote is incorrect or that Twitter is having trouble.
 
-If your avatar changed but you still have a jpg, it is because your image doesn't have transparency, so Twitter converts it automatically. You can edit it with GIMP/photoshop/ anything just to add 1 transparent pixel, it is enough.
+If your avatar changed but you still have a jpg, it is because your image doesn't have transparency, so Twitter converts it automatically. You can edit it with GIMP/photoshop/anything just to add 1 transparent pixel, it is enough.
 
-If when you try to erase, instead of transparency, you get white, it might be because you haven't got any alpha canal on your image. With GIMP, you can correct this by doing Layer > Transparency > Add an alpha canal (might be differently named, if so let me know).
+If when you try to erase, instead of transparency, you get white, it might be because you haven't got any alpha channel on your image. With GIMP, you can correct this by doing Layer > Transparency > Add an alpha channel (might be differently named, if so let me know).
 
 Have fun!
